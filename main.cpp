@@ -12,7 +12,7 @@ int main() {
 
 	//Task B
 	//Read bad-code.cpp
-	std::string outputA, outputB;
+	std::string output;
 	std::ifstream badF("bad-code.cpp");
 	if (badF.fail()) {
 		std::cout << "Failed to open file" << std::endl;
@@ -20,8 +20,8 @@ int main() {
 	}
 
 	// fix bad-code.cpp
-	outputB = indentation(badF);
-	std::cout << "\nFixed bad-code.cpp:\n" << outputB << std::endl;
+	output = indentation(badF);
+	std::cout << "\nFixed bad-code.cpp:\n" << output << std::endl;
 
 
 	return 0;
