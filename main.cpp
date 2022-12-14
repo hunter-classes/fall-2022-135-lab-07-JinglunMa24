@@ -7,18 +7,12 @@
 int main() {
 
 	//Task A
-	std::cout << "--------------" << std::endl;
-    std::cout << "Task A" << std::endl;
-    std::cout << "--------------" << std::endl;
 	std::string line = "       int x = 1;  ";
 	std::cout << '"' << line << '"' << std::endl << '"' << removeLeadingSpaces(line) << '"' << std::endl;
 
 
 	//Task B
 	//Read bad-code.cpp
-	std::cout << "--------------" << std::endl;
-    std::cout << "Task B" << std::endl;
-    std::cout << "--------------" ;
 	std::string output;
 	std::ifstream badF("bad-code.cpp");
 	if (badF.fail()) {
