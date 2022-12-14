@@ -5,7 +5,6 @@
 #include "unindent.h"
 #include "indent.h"
 
-//This comment is for the pull request lab
 int main() {
 
 	//Task A
